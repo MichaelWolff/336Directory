@@ -1,0 +1,6 @@
+[12-Feb-2018 17:06:40 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/ubuntu/workspace/Examples/Challenge1/index.php on line 23
+[12-Feb-2018 17:06:57 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/ubuntu/workspace/Examples/Challenge1/index.php on line 25
+[12-Feb-2018 17:35:57 UTC] PHP Parse error:  syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/Examples/Challenge1/index.php on line 34
+[14-Feb-2018 17:22:39 UTC] PHP Fatal error:  Call to undefined function isnull() in /home/ubuntu/workspace/Examples/Challenge1/index.php on line 32
+[14-Feb-2018 17:22:39 UTC] PHP Stack trace:
+[14-Feb-2018 17:22:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Examples/Challenge1/index.php:0
