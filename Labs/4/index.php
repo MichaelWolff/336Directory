@@ -67,8 +67,8 @@ include 'inc/functions.php';
         
         //The new connection setup for Heroku
         ////////////////////////////////////////////////////////////
-        //$connUrl = getenv('JAWSDB_MARIA_URL');
-        $connUrl = "mysql://ikxzumlxt0a0uq9x:qendeuysn1eho7ym@thzz882efnak0xod.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s1vxerk2jlp6h9j1";
+        $connUrl = getenv('JAWSDB_MARIA_URL');
+        //$connUrl = "mysql://ikxzumlxt0a0uq9x:qendeuysn1eho7ym@thzz882efnak0xod.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s1vxerk2jlp6h9j1";
         $hasConnUrl = !empty($connUrl);
 
         $connParts = null;
