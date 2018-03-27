@@ -46,3 +46,7 @@ Stack trace:
 [14-Mar-2018 16:04:39 UTC] PHP Notice:  Undefined index: name in /home/ubuntu/workspace/Labs/4/index.php on line 54
 [14-Mar-2018 16:04:39 UTC] PHP Notice:  Undefined index: status in /home/ubuntu/workspace/Labs/4/index.php on line 55
 [14-Mar-2018 16:04:39 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Labs/4/index.php on line 101
+[24-Mar-2018 00:34:23 UTC] PHP Notice:  Undefined index: type in /home/ubuntu/workspace/Labs/4/index.php on line 53
+[24-Mar-2018 00:34:23 UTC] PHP Notice:  Undefined index: name in /home/ubuntu/workspace/Labs/4/index.php on line 54
+[24-Mar-2018 00:34:23 UTC] PHP Notice:  Undefined index: status in /home/ubuntu/workspace/Labs/4/index.php on line 55
+[24-Mar-2018 00:34:23 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Labs/4/index.php on line 101
