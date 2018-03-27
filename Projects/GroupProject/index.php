@@ -80,6 +80,8 @@ alert(info);
 
         $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
         $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        
+        
         //return new PDO("mysql:host=$host;dbname=$dbname", $username, $password);//For some reason this line from Jasons exampled isnt working for me
         //////////////////////////////////////////////////////////////
         $sql =  'SELECT * FROM Processors WHERE Model LIKE "'.$model.'%" AND Unlocked LIKE "'.$unlocked.'%" AND Cores LIKE "'.$cores.'%" ORDER BY ' .$ordercpu;
