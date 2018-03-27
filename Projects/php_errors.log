@@ -1,0 +1,26 @@
+[27-Mar-2018 05:07:44 UTC] PHP Notice:  Array to string conversion in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 57
+[27-Mar-2018 05:07:44 UTC] PHP Notice:  Undefined index: Model in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 61
+[27-Mar-2018 05:07:44 UTC] PHP Notice:  Undefined index: Unlocked in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 62
+[27-Mar-2018 05:07:44 UTC] PHP Notice:  Undefined index: Cores in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 63
+[27-Mar-2018 05:07:44 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 91
+[27-Mar-2018 05:07:44 UTC] PHP Notice:  Undefined variable: table_str2 in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 123
+[27-Mar-2018 05:07:44 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 152
+[27-Mar-2018 05:07:44 UTC] PHP Notice:  Undefined index: products in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 190
+[27-Mar-2018 05:07:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 190
+[27-Mar-2018 05:07:48 UTC] PHP Notice:  Array to string conversion in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 57
+[27-Mar-2018 05:07:48 UTC] PHP Notice:  Undefined index: Model in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 61
+[27-Mar-2018 05:07:48 UTC] PHP Notice:  Undefined index: Unlocked in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 62
+[27-Mar-2018 05:07:48 UTC] PHP Notice:  Undefined index: Cores in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 63
+[27-Mar-2018 05:07:48 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 91
+[27-Mar-2018 05:07:48 UTC] PHP Notice:  Undefined variable: table_str2 in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 123
+[27-Mar-2018 05:07:48 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 152
+[27-Mar-2018 05:07:50 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Projects/GroupProject1/cart.php on line 16
+[27-Mar-2018 05:09:02 UTC] PHP Notice:  Array to string conversion in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 57
+[27-Mar-2018 05:09:02 UTC] PHP Notice:  Undefined index: Model in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 61
+[27-Mar-2018 05:09:02 UTC] PHP Notice:  Undefined index: Unlocked in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 62
+[27-Mar-2018 05:09:02 UTC] PHP Notice:  Undefined index: Cores in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 63
+[27-Mar-2018 05:09:02 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 91
+[27-Mar-2018 05:09:02 UTC] PHP Notice:  Undefined variable: table_str2 in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 123
+[27-Mar-2018 05:09:02 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 152
+[27-Mar-2018 05:09:02 UTC] PHP Notice:  Undefined index: products in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 190
+[27-Mar-2018 05:09:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Projects/GroupProject1/index.php on line 190
