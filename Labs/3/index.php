@@ -41,15 +41,10 @@ include 'inc/functions.php';
         
         $newDeck = range(0, 51);
         //Draws a hand for each of the players
-<<<<<<< HEAD
                 shuffle($newDeck);
 
         //Prints the players
         
-=======
-        
-        //Prints the players
->>>>>>> 16375ca0fe9249df276297dfc413ed9f1e44609e
         foreach($players as $x){
             //Switch statement
              switch(floor($card/13)){
@@ -70,7 +65,6 @@ include 'inc/functions.php';
                         break;
              }
         }
-<<<<<<< HEAD
         
         //Have a for loop that will create an array from the deck and then replace each players array with that array
         //Make sure that the new array doesn't add another card after the total value of the array is 42 or greater.
@@ -131,16 +125,16 @@ include 'inc/functions.php';
 
         //array_push($players['Michael'],array_pop($newDeck));
         //$players["Michael"] = array_pop($newDeck);
-        function shuffle_with_keys(&$array) { 
-        	$aux = array(); 
-        	$keys = array_keys($array); 
-	        shuffle($keys); 
-	        foreach($keys as $key) { 
-		        $aux[$key] = $array[$key]; 
-		        unset($array[$key]); 
-	        } 
-	        $array = $aux;
-        }
+        // function shuffle_with_keys(&$array) { 
+        // 	$aux = array(); 
+        // 	$keys = array_keys($array); 
+	       // shuffle($keys); 
+	       // foreach($keys as $key) { 
+		      //  $aux[$key] = $array[$key]; 
+		      //  unset($array[$key]); 
+	       // } 
+	       // $array = $aux;
+        // }
         shuffle_with_keys($players);
         //shuffle($players);
         foreach($players as $x=>$x_value){
@@ -148,24 +142,12 @@ include 'inc/functions.php';
             //Create an array of size 4 with the player names in it then pop a random element of it to figure what player we are drawing
             $sum;
             echo "<img id='reel$y' src='img/players/smile$x.png' alt='$symbol' title='$symbol' width='70'/>";
-=======
-        shuffle($newDeck);
-        $players["Michael"][] = array_pop($newDeck);
-        //array_push($players['Michael'],array_pop($newDeck));
-        //$players["Michael"] = array_pop($newDeck);
-        
-        foreach($players as $x=>$x_value){
-            echo "Player= " . $x;
->>>>>>> 16375ca0fe9249df276297dfc413ed9f1e44609e
             foreach($x_value as $card){
                 switch(floor($card/13)){
                     case 0:
                         //$temp = card;
                         //echo "$card ";
-<<<<<<< HEAD
                         $sum+=$card;
-=======
->>>>>>> 16375ca0fe9249df276297dfc413ed9f1e44609e
                         echo "<img id='reel$y' src='img/clubs/$card.png' alt='$symbol' title='$symbol' width='70'/>";
                         //echo 'clubs';
                         //echo '<br>';
@@ -173,10 +155,7 @@ include 'inc/functions.php';
                     case 1:
                         //echo "$card ";
                         $temp = $card-13;
-<<<<<<< HEAD
                         $sum+=$temp;
-=======
->>>>>>> 16375ca0fe9249df276297dfc413ed9f1e44609e
                         echo "<img id='reel$y' src='img/diamonds/$temp.png' alt='$symbol' title='$symbol' width='70'/>";
                         //echo 'diamonds';
                         //echo '<br>';
@@ -184,10 +163,7 @@ include 'inc/functions.php';
                     case 2:
                         //echo "$card ";
                         $temp = $card-26;
-<<<<<<< HEAD
                         $sum+=$temp;
-=======
->>>>>>> 16375ca0fe9249df276297dfc413ed9f1e44609e
                         echo "<img id='reel$y' src='img/hearts/$temp.png' alt='$symbol' title='$symbol' width='70'/>";
                         //echo 'hearts';
                         //echo '<br>';
@@ -195,16 +171,10 @@ include 'inc/functions.php';
                     case 3:
                         //echo "$card ";
                         $temp = $card-39;
-<<<<<<< HEAD
                         $sum+=$temp;
                         echo "<img id='reel$y' src='img/spades/$temp.png' alt='$symbol' title='$symbol' width='70'/>";
                         //echo 'spades';
                         //echo '<br>';
-=======
-                        echo "<img id='reel$y' src='img/spades/$temp.png' alt='$symbol' title='$symbol' width='70'/>";
-                        //echo 'spades';
-                        echo '<br>';
->>>>>>> 16375ca0fe9249df276297dfc413ed9f1e44609e
                         break;
                     default:
                         echo 'default';
@@ -215,7 +185,6 @@ include 'inc/functions.php';
                 // $y_value is the value contained within the associative array.
                 
             }
-<<<<<<< HEAD
             if($sum <= 42){
                 echo $sum . " WINNER";
             }
@@ -224,8 +193,6 @@ include 'inc/functions.php';
             }
             //echo $sum;
             $sum = 0;
-=======
->>>>>>> 16375ca0fe9249df276297dfc413ed9f1e44609e
             echo "<br>";
         }
         
@@ -301,11 +268,7 @@ include 'inc/functions.php';
         ?>
         <form>
             
-<<<<<<< HEAD
             <!--<input type="checkbox" name="replay" value="Replay"> Replay -->
-=======
-            <input type="checkbox" name="replay" value="Replay"> Replay 
->>>>>>> 16375ca0fe9249df276297dfc413ed9f1e44609e
 
 
         </form>

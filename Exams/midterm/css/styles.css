@@ -1,0 +1,36 @@
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+body{
+    background-color:white;
+    color:black;
+}
+
+header,main,nav,footer{
+    text-align:center;
+    margin-top: 10px;
+    font-size: 4em;
+}
+footer{
+    color: grey;
+}
+
+
+
+.alignleft{
+    float:left;
+}
+
+.alignright{
+    float:right;
+}
+#bodyText{
+    float:left;
+}
+#imageOtter{
+    float:right;
+}
+
