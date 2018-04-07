@@ -24,7 +24,7 @@ include 'inc/functions.php';
                     <button onclick="dislike();">Dislike</button>
                     <button onclick="report();">Report as Spam</button>
                     <p id="comments" >
-                    testing the paragragh text box
+                    
                     </p>
             </div style="text-align:center;"> 
         
