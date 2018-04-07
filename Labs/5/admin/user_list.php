@@ -34,7 +34,7 @@ include('../functions.php')
             if($result->rowCount()>0){
                 //echo "tester2";
 		    while($row = $result->fetch()) {
-                echo "User ID: ".$row["id"]." Username: ".$row["username"]." Email: ".$row["email"]."</br></br>";            }
+                echo "User ID: ".$row["id"]."First Name: ".$row["firstname"]."Last Name:".$row["lastname"]." Username: ".$row["username"]." Email: ".$row["email"]."</br></br>";            }
             }
 			
 		?>
