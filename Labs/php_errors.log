@@ -242,3 +242,5 @@ Stack trace:
 [04-Apr-2018 15:39:12 UTC] PHP Notice:  Undefined variable: lastname in /home/ubuntu/workspace/Labs/5/register.php on line 24
 [07-Apr-2018 05:44:36 UTC] PHP Notice:  Undefined variable: firstname in /home/ubuntu/workspace/Labs/5/register.php on line 20
 [07-Apr-2018 05:44:36 UTC] PHP Notice:  Undefined variable: lastname in /home/ubuntu/workspace/Labs/5/register.php on line 24
+[07-Apr-2018 05:50:25 UTC] PHP Notice:  Undefined index: firstname in /home/ubuntu/workspace/Labs/5/functions.php on line 166
+[07-Apr-2018 05:50:25 UTC] PHP Notice:  Undefined index: lastname in /home/ubuntu/workspace/Labs/5/functions.php on line 167
