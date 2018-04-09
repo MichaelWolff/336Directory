@@ -543,3 +543,47 @@
 [07-Apr-2018 20:43:47 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
 [07-Apr-2018 20:45:10 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
 [07-Apr-2018 20:45:10 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:28:15 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:28:15 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:28:46 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:28:46 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:29:15 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:29:15 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:30:44 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:30:44 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:31:58 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:31:58 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:32:02 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:32:02 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:32:14 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:32:14 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:32:34 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:32:34 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:32:51 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:32:51 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:34:10 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:34:10 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:34:30 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:34:30 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:35:15 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:35:15 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:35:55 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:35:55 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:36:04 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:36:04 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:36:24 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:36:24 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:39:22 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:39:22 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:40:37 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:40:37 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:40:48 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:40:48 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:41:02 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:41:02 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:41:40 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:41:40 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:43:15 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:43:15 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:44:07 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Assignment/4/index.php on line 2
+[09-Apr-2018 15:44:07 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Assignment/4/index.php on line 2

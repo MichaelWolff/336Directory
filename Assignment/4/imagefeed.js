@@ -23,13 +23,13 @@ function change_image(){
     increment++;
     document.getElementById("comments").innerHTML= comments[increment];
     if(reported[increment] ==1){
-            document.getElementById("feed").src = "./imgs/puppy0.jpg";
+            document.getElementById("feed").src = "./imgs/puppy99.jpg";
 
     }
     if(reported[increment] ==0){
             document.getElementById("feed").src = "./imgs/puppy"+increment + ".jpg";
     }
-    if(increment > 12){
+    if(increment > 5){
         increment = 1;
     }
     document.getElementById("likes").textContent=likes[increment]
@@ -38,14 +38,14 @@ function change_image_back(){
     increment--;
     document.getElementById("comments").innerHTML= comments[increment];
     if(reported[increment] ==1){
-            document.getElementById("feed").src = "./imgs/puppy0.jpg";
+            document.getElementById("feed").src = "./imgs/puppy99.jpg";
 
     }
     if(reported[increment] ==0){
             document.getElementById("feed").src = "./imgs/puppy"+increment + ".jpg";
     }
     if(increment < 2){
-        increment = 13;
+        increment = 6;
     }
         document.getElementById("likes").textContent=likes[increment]
 
@@ -61,17 +61,22 @@ function dislike(){
     document.getElementById("likes").textContent=likes[increment];
 }
 function report(){
-    document.getElementById("feed").src = "./imgs/puppy0.jpg";
+    document.getElementById("feed").src = "./imgs/puppy99.jpg";
     reported[increment] = 1;
 }
 
 function comment(){
     console.log("Started the comment function");
     var text = document.getElementById("paragraph_text").value;
-    comments[increment] = comments[increment]+ "</br>"+"<strong> User Posted: </strong></br>"+text+"</br>";
+    comments[increment] = comments[increment]+ "</br>"+"<img src='./imgs/profilePicture.png' alt='Smiley face' height='42' width='42'  style='height:42px;'><strong> User Posted: </strong></br>"+text+"</br>";
     document.getElementById("comments").innerHTML= comments[increment];
-    // document.getElementById("comments").innerHTML="TESter";
-
+    // document.getElementById("comments").innerHTML="TESter"
+}
+function commentHide(){
+    document.getElementById("comments").innerHTML= '';
+}
+function commentShow(){
+    document.getElementById("comments").innerHTML= comments[increment];
 }
 
 // function comment(text){
