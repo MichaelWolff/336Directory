@@ -1,7 +1,7 @@
 
 <?php 
 	include('functions.php');
-	echo "On getuser.php";
+// 	echo "On getuser.php";
 	?>
 <!DOCTYPE html>
 
