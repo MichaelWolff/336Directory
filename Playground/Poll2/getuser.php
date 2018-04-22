@@ -20,7 +20,7 @@ th {text-align: left;}
     
 <?php
 //echo 'testing';
- $q = intval($_GET['q']);
+ 
  try{
 $connUrl = getenv('JAWSDB_MARIA_URL');
         //$connUrl = "mysql://ikxzumlxt0a0uq9x:qendeuysn1eho7ym@thzz882efnak0xod.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s1vxerk2jlp6h9j1";
@@ -45,6 +45,7 @@ catch(PDOException $e){
     echo "Connection failed: ". $e->getMessage();
     
 }
+$q = intval($_GET['q']);
 //
 //  $connUrl = getenv('JAWSDB_MARIA_URL');
 //         $hasConnUrl = !empty($connUrl);

@@ -2105,3 +2105,4 @@ Stack trace:
 #0 {main}
   thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 75
 [22-Apr-2018 22:11:43 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 88
+[22-Apr-2018 22:16:35 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 89
