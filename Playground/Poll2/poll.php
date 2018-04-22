@@ -1,3 +1,6 @@
+<?php 
+	include('functions.php');
+	?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +27,7 @@ function showUser(str) {
                 document.getElementById("txtHint").innerHTML = this.responseText;//This takes whatever was printed out by the request(echo) and sets the text to be equal to it.
             }
         };
-        xmlhttp.open("GET","/Playground/Poll2/getuser.php?q="+str,true);
+        xmlhttp.open("GET","getuser.php?q="+str,true);
                 console.log('running xmlhttp.open');
 
         xmlhttp.send();
