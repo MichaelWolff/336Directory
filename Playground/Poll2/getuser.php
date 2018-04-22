@@ -39,7 +39,7 @@ $connUrl = getenv('JAWSDB_MARIA_URL');
 
         $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
         $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        //echo "connected succesfully";
+        echo "connected succesfully";
 }
 catch(PDOException $e){
     echo "Connection failed: ". $e->getMessage();
