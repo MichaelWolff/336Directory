@@ -2087,3 +2087,21 @@ Stack trace:
 #0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(51): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 51
+[22-Apr-2018 22:06:53 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 63
+[22-Apr-2018 22:06:57 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 63
+[22-Apr-2018 22:10:35 UTC] PHP Notice:  Undefined variable: dbConn in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 62
+[22-Apr-2018 22:10:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ubuntu/workspace/Playground/Poll2/getuser.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 62
+[22-Apr-2018 22:10:39 UTC] PHP Notice:  Undefined variable: dbConn in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 62
+[22-Apr-2018 22:10:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ubuntu/workspace/Playground/Poll2/getuser.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 62
+[22-Apr-2018 22:11:12 UTC] PHP Notice:  Undefined variable: dbConn in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 75
+[22-Apr-2018 22:11:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ubuntu/workspace/Playground/Poll2/getuser.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 75
+[22-Apr-2018 22:11:43 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 88
