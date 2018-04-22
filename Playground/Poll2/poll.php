@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <?php 
 	include('functions.php');
 	?>
-
+<!DOCTYPE html>
 <html>
 <head>
 <script>
@@ -28,7 +27,7 @@ function showUser(str) {
                 document.getElementById("txtHint").innerHTML = this.responseText;//This takes whatever was printed out by the request(echo) and sets the text to be equal to it.
             }
         };
-        xmlhttp.open("GET","https://directory336.herokuapp.com/Playground/Poll2/getuser.php?q="+str,true);
+        xmlhttp.open("GET","/Playground/Poll2/getuser.php?q="+str,true);
                 console.log('running xmlhttp.open');
 
         xmlhttp.send();
