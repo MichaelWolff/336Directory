@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <?php 
 	include('functions.php');
 	?>
-<!DOCTYPE html>
+
 <html>
 <head>
 <script>

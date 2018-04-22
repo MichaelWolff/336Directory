@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php 
 try{
 $connUrl = getenv('JAWSDB_MARIA_URL');
