@@ -39,27 +39,15 @@ $q = intval($_GET['q']);
         
         $stmt = $dbConn->prepare($sql);
         $stmt -> execute (  array ( ':id' => '1')  );//This is the problem line
-        
-        //The raplacement run
-     //   $stmt -> execute();
-        
         $tempYes =0;
         $tempNo = 0;
         $tempMaybe =0;
         if ($stmt->rowCount() > 0) {
-            //Creates a table
-            $table_str.='<table>';
-            $table_str.='<thead>';
-            $table_str.='</thead>';
         while ($row = $stmt -> fetch())  {
             $tempYes=$tempYes+$row['Yes'];
             $tempNo=$tempNo+$row['No'];
             $tempMaybe = $tempMaybe+$row['Maybe'];
-            $table_str.='<tr>';
-            $table_str.='<td>'.$row['Yes'].'</td>'.'<td>'.$row['No'].'</td>'.'<td>'.$row['Maybe'].'</td>';
-            $table_str.='</tr>';
         }
-        $table_str.='</table>';
         //echo $table_str;//Prints the whole table
         echo "<img src = 'poll.jpg' width =".(100*round($tempYes/($tempNo+$tempYes+$tempMaybe),2))." height = '20'> ";
         echo (100*round($tempYes/($tempNo+$tempYes+$tempMaybe),2))."% Yes</br>";
@@ -72,26 +60,6 @@ $q = intval($_GET['q']);
         echo "No data found";
         }
         return null;
-        // $numrows = $stmt->num_rows;
-        // $stmt->bind_result($yes, $no, $maybe);
-        // $JSONArray = [];
-        // for($i=0; $i < $numrows; $i++){
-        //     $row = $stmt->fetch();
-        //     $yes = $row['Yes'];
-        //     $no = $row['No'];
-        //     $maybe = $row['Maybe'];
-        //     $JSONArray[]=["Yes" => $yes,
-        //                     "No" => $no,
-        //                     "Maybe" => $maybe];
-                            
-        // }
-        
-        // foreach ($result as $key => $value) {
-        //   // $tempYes = $tempYes + $value;
-        //     echo "Key: $key; Yes: $value </br>";
-        // }
-      // array_column($result, 'Yes','myKey');
-        //echo json_decode(print_r(array_column($result, 'Yes','myKey')));
         
 ?>
 </body>
