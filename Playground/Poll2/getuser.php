@@ -33,6 +33,9 @@
         if($q == '4'){
             $sql =  'SELECT * FROM poll';
         }
+        if($q=='5'){
+            $sql = 'TRUNCATE TABLE poll';
+        }
         $stmt = $dbConn->prepare($sql);
         $stmt -> execute (  array ( ':id' => '1')  );//This is the problem line
         //$user = $query->fetch(PDO::FETCH_ASSOC);

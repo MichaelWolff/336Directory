@@ -77,6 +77,7 @@ function addPoint(){
 <button onclick="showUser('2')">No</button>
 <button onclick="showUser('3')">Maybe</button>
 <button onclick="showUser('4')">Show Table</button>
+<button onclick="showUser('5')">Clear Table</button>
 <br>
 <div id="txtHint"><b>Person info will be listed here...</b></div>
 
