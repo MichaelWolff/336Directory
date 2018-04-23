@@ -22,45 +22,7 @@ th {text-align: left;}
 <body>
     
 <?php
-// //echo 'testing';
- 
-//  try{
-// $connUrl = getenv('JAWSDB_MARIA_URL');
-//         //$connUrl = "mysql://ikxzumlxt0a0uq9x:qendeuysn1eho7ym@thzz882efnak0xod.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s1vxerk2jlp6h9j1";
-//         $hasConnUrl = !empty($connUrl);
-
-//         $connParts = null;
-//         if ($hasConnUrl) {
-//             $connParts = parse_url($connUrl);
-//         }
-
-//         //var_dump($hasConnUrl);
-//         $host = $hasConnUrl ? $connParts['host'] : getenv('IP');
-//         $dbname = $hasConnUrl ? ltrim($connParts['path'],'/') : 'midterm';
-//         $username = $hasConnUrl ? $connParts['user'] : getenv('C9_USER');
-//         $password = $hasConnUrl ? $connParts['pass'] : '';
-
-//         $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-//         $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//         echo "connected succesfully";
-// }
-// catch(PDOException $e){
-//     echo "Connection failed: ". $e->getMessage();
-// }
 $q = intval($_GET['q']);
-//
-//  $connUrl = getenv('JAWSDB_MARIA_URL');
-//         $hasConnUrl = !empty($connUrl);
-//         $connParts = null;
-//         if ($hasConnUrl) {
-//             $connParts = parse_url($connUrl);
-//         }
-//         $host = $hasConnUrl ? $connParts['host'] : getenv('IP');
-//         $dbname = $hasConnUrl ? ltrim($connParts['path'],'/') : 'midterm';
-//         $username = $hasConnUrl ? $connParts['user'] : getenv('C9_USER');
-//         $password = $hasConnUrl ? $connParts['pass'] : '';
-//         $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-//         $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);//Z
         if($q == '1'){
             echo "q = 1";
             $sql =  'INSERT INTO Poll (YES) VALUES ("1")';
@@ -79,9 +41,7 @@ $q = intval($_GET['q']);
         $stmt -> execute (  array ( ':id' => '1')  );//This is the problem line
         
         //The raplacement run
-        $stmt -> execute();
-        //$result = $stmt->fetchAll();
-        
+     //   $stmt -> execute();
         
         $tempYes =0;
         $tempNo = 0;
