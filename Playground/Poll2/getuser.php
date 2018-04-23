@@ -49,11 +49,11 @@
             $tempMaybe = $tempMaybe+$row['Maybe'];
         }
         //echo $table_str;//Prints the whole table
-        echo "<img src = 'poll.jpg' width =".(100*round($tempYes/($tempNo+$tempYes+$tempMaybe),2))." height = '20'> ";
+        echo "<img src = 'poll.jpg' width =".(300*round($tempYes/($tempNo+$tempYes+$tempMaybe),2))." height = '60'> ";
         echo (100*round($tempYes/($tempNo+$tempYes+$tempMaybe),2))."% Yes</br>";
-        echo "<img src = 'poll.jpg' width =".(100*round($tempNo/($tempYes+$tempNo+$tempMaybe),2))." height = '20'> ";
+        echo "<img src = 'poll.jpg' width =".(300*round($tempNo/($tempYes+$tempNo+$tempMaybe),2))." height = '60'> ";
         echo (100*round($tempNo/($tempYes+$tempNo+$tempMaybe),2)).'% No</br>';
-        echo "<img src = 'poll.jpg' width =".(100*round($tempMaybe/($tempYes+$tempNo+$tempMaybe),2))." height = '20'> ";
+        echo "<img src = 'poll.jpg' width =".(300*round($tempMaybe/($tempYes+$tempNo+$tempMaybe),2))." height = '60'> ";
         echo (100*round($tempMaybe/($tempYes+$tempNo+$tempMaybe),2)).'% Maybe</br>';
         }
         else {

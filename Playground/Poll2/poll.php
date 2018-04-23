@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+            @import url("css/styles.css");
+        </style>
 <script>
 function showUser(str) {
     console.log("Show user function");
