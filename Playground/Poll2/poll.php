@@ -21,17 +21,18 @@ function showUser(str) {
             console.log("line 12");
             //xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
         }
-        xmlhttp.onreadystatechange = function() {
-            console.log("On Ready State Change line 16");
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("txtHint").innerHTML = this.responseText;//This takes whatever was printed out by the request(echo) and sets the text to be equal to it.
-            }
-        };
+        
         xmlhttp.open("GET","/Playground/Poll2/getuser.php?q="+str,true);
                 console.log('running xmlhttp.open');
 
         xmlhttp.send();
                 console.log('running xmlhttp.send');
+        xmlhttp.onreadystatechange = function() {
+            console.log("On Ready State Change line 16");
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("txtHint").innerHTML = this.responseText;//This takes whatever was printed out by the request(echo) and sets the text to be equal to it.
+            }
+        };        
 
     }
 }
