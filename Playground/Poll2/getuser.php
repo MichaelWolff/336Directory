@@ -1,4 +1,10 @@
-
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title> Get User </title>
+        </head>
+        <body>
     <?php
      $q = intval($_GET['q']);
         $connUrl = getenv('JAWSDB_MARIA_URL');
@@ -71,3 +77,6 @@
         //return null;
         
 ?>
+
+    </body>
+</html>
