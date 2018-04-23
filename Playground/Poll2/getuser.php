@@ -34,7 +34,7 @@
         }
         if($q == '4'){
             echo "q=4";
-            $sql =  'SELECT * FROM `Poll` WHERE 1';
+            $sql =  'SELECT * FROM `poll` WHERE 1';
         }
         echo "45";
         $stmt = $dbConn->prepare($sql);
