@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php 
 	include('functions.php');
 // 	echo "On getuser.php";
