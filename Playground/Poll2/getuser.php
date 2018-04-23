@@ -30,7 +30,7 @@ $q=4;
 //$q = intval($_GET['q']);
         if($q == '1'){
             echo "q = 1";
-            $sql =  'INSERT INTO Poll (YES) VALUES ("1")';
+            $sql =  'INSERT INTO Poll (Yes) VALUES ("1")';
         }
         if($q =='2'){
             $sql =  'INSERT INTO Poll (No) VALUES ("1")';
@@ -39,6 +39,7 @@ $q=4;
              $sql =  'INSERT INTO Poll (Maybe) VALUES ("1")';
         }
         if($q == '4'){
+            echo "q=4";
             $sql =  'SELECT * FROM Poll';
         }
         
