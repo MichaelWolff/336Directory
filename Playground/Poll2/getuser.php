@@ -1,28 +1,7 @@
-<?php 
-	include('functions.php');
-// 	echo "On getuser.php";
-	?>
 
-<html>
-<head>
-<style>
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table, td, th {
-    border: 1px solid black;
-    padding: 5px;
-}
-
-th {text-align: left;}
-</style>
-</head>
-<body>
     <?php
-    try{
-$connUrl = getenv('JAWSDB_MARIA_URL');
+        try{
+        $connUrl = getenv('JAWSDB_MARIA_URL');
         //$connUrl = "mysql://ikxzumlxt0a0uq9x:qendeuysn1eho7ym@thzz882efnak0xod.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s1vxerk2jlp6h9j1";
         $hasConnUrl = !empty($connUrl);
 
@@ -40,15 +19,13 @@ $connUrl = getenv('JAWSDB_MARIA_URL');
         $db = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
         $db -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         echo "connected succesfully";
-}
-catch(PDOException $e){
-    echo "Connection failed: ". $e->getMessage();
-    
-}
-    echo "This is a test";
-    ?>
-
-        <?php
+        }
+        
+        catch(PDOException $e){
+            echo "Connection failed: ". $e->getMessage();
+        }
+        
+        echo "This is a test";
         $q=4;
         //$q = intval($_GET['q']);
         if($q == '1'){
@@ -92,5 +69,3 @@ catch(PDOException $e){
         //return null;
         
 ?>
-</body>
-</html>
