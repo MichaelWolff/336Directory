@@ -1,6 +1,5 @@
 
     <?php
-    $sql = 'SELECT * FROM Poll';
         $connUrl = getenv('JAWSDB_MARIA_URL');
         //$connUrl = "mysql://ikxzumlxt0a0uq9x:qendeuysn1eho7ym@thzz882efnak0xod.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s1vxerk2jlp6h9j1";
         $hasConnUrl = !empty($connUrl);
@@ -34,7 +33,7 @@
         }
         if($q == '4'){
             echo "q=4";
-            $sql =  'SELECT * FROM `poll` WHERE 1';
+            $sql =  'SELECT * FROM poll';
         }
         echo "45";
         $stmt = $dbConn->prepare($sql);
