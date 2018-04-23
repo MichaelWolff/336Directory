@@ -35,9 +35,9 @@
             echo "q=4";
             $sql =  'SELECT * FROM poll';
         }
-        echo "45";
+        echo "38";
         $stmt = $dbConn->prepare($sql);
-        echo "47";
+        echo "40";
         $stmt -> execute (  array ( ':id' => '1')  );//This is the problem line
         echo "48";
         //$user = $query->fetch(PDO::FETCH_ASSOC);
