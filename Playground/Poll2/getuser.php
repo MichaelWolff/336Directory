@@ -1,5 +1,6 @@
 
     <?php
+     $q = intval($_GET['q']);
         $connUrl = getenv('JAWSDB_MARIA_URL');
         //$connUrl = "mysql://ikxzumlxt0a0uq9x:qendeuysn1eho7ym@thzz882efnak0xod.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s1vxerk2jlp6h9j1";
         $hasConnUrl = !empty($connUrl);
@@ -20,7 +21,7 @@
         
         echo "This is a test";
         //$q=4;
-        $q = intval($_GET['q']);
+       
         if($q == '1'){
             echo "q = 1";
             $sql =  'INSERT INTO Poll (Yes) VALUES ("1")';
