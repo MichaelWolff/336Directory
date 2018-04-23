@@ -2218,3 +2218,7 @@ Stack trace:
   thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 41
 [23-Apr-2018 02:44:53 UTC] PHP Notice:  Undefined index: q in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 24
 [23-Apr-2018 02:46:14 UTC] PHP Notice:  Undefined index: q in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 24
+[23-Apr-2018 02:54:25 UTC] PHP Notice:  Undefined index: type in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 51
+[23-Apr-2018 02:54:25 UTC] PHP Notice:  Undefined index: name in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 52
+[23-Apr-2018 02:54:25 UTC] PHP Notice:  Undefined index: status in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 53
+[23-Apr-2018 02:54:25 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 99
