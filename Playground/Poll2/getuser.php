@@ -19,11 +19,9 @@
         $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
         $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         
-        echo "This is a test";
         //$q=4;
         $q = intval($_GET['q']);
         if($q == '1'){
-            echo "q = 1";
             $sql =  'INSERT INTO Poll (Yes) VALUES ("1")';
         }
         if($q =='2'){
@@ -33,29 +31,21 @@
              $sql =  'INSERT INTO Poll (Maybe) VALUES ("1")';
         }
         if($q == '4'){
-            echo "q=4";
             $sql =  'SELECT * FROM poll';
         }
-        echo "45";
         $stmt = $dbConn->prepare($sql);
-        echo "47";
         $stmt -> execute (  array ( ':id' => '1')  );//This is the problem line
-        echo "48";
         //$user = $query->fetch(PDO::FETCH_ASSOC);
         $tempYes = 0;
-        echo "50";
         $tempNo = 0;
         $tempMaybe =0;
-        echo "53";
         if ($stmt->rowCount() > 0) {
-        echo "55";
         while ($row = $stmt -> fetch())  {
             echo "57";
             $tempYes=$tempYes+$row['Yes'];
             $tempNo=$tempNo+$row['No'];
             $tempMaybe = $tempMaybe+$row['Maybe'];
         }
-        echo "62";
         //echo $table_str;//Prints the whole table
         echo "<img src = 'poll.jpg' width =".(100*round($tempYes/($tempNo+$tempYes+$tempMaybe),2))." height = '20'> ";
         echo (100*round($tempYes/($tempNo+$tempYes+$tempMaybe),2))."% Yes</br>";
@@ -67,7 +57,6 @@
         else {
         echo "No data found";
         }
-        echo "this is the end of get user";
         //return null;
         
 ?>
