@@ -4,50 +4,11 @@
     
     <head>
         <title> Lab 4 </title>
-        <style>
-            @import url("css/styles.css");
-        </style>
     </head>
     <body>
-        <h2>Device Checkout</h2>
-        <form action="index.php" method="post">
-          Device Type:<br>
-          <input type="text" name="type"><br>
-          Device Name:<br>
-          <input type="text" name="name"><br>
-          Availablility(Available or CheckedOut):<br>
-          <input type="text" name="status">
-          <input type="submit" value="Submit">
-        </form>
-        <table>
-            <tr style="font-size: 28px">
-                <th>
-                    <a href="?orderBy=deviceName">Device Name</a>
-                </th>
-                <th>
-                    <a href="?orderBy=deviceType">Device Type</a>
-                </th>
-                <th>
-                    <a href="?orderBy=price">Price</a>
-                </th>
-                <th>
-                    <a href="?orderBy=status">Status</a>
-                </th>
-            </tr>
-        </table>
-        <!--<img src="img/cherry.png" alt="cherry" title="Cherry" width="70" />-->
         <?php
             ///////////////////////////////////////////////////////////////////////
             //This is the example provided on ilearn modified to fit this project
-        $orderBy = array('deviceName', 'deviceType', 'price', 'status');
-
-        $order = "deviceName";
-        if (isset($_GET['orderBy']) && in_array($_GET['orderBy'], $orderBy)) {
-            $order = $_GET['orderBy'];
-        }
-
-        //$query = 'SELECT * FROM aTable ORDER BY '.$order;
-        //Variables used to filter the results
         $type = $_POST["type"];
         $name = $_POST["name"];
         $availability = $_POST["status"];
@@ -87,8 +48,7 @@
         //////////////////////////////////////////////////////////////
         //$sql = " SELECT * FROM device ORDER BY deviceName";//This will sort them alphabetically by the device name add DESC to reverse the order
         //$order = 'deviceName';
-        $sql =  'SELECT * FROM device WHERE deviceName LIKE "'.$name.'%" AND deviceType LIKE "'.$type.'%" AND status LIKE "'.$availability.'%" ORDER BY ' .$order;
-        // $sql =  'SELECT * FROM device WHERE deviceName LIKE "'.$name.'%" ORDER BY ' .$order;//Works
+        $sql =  'SELECT * FROM device';
         ////$sql = 'SELECT * FROM device WHERE deviceName = "HTC Vive" ORDER BY ' .$order;
         //$sql = 'SELECT * FROM device WHERE deviceName = '.$name.' ORDER BY ' .$order;
 
