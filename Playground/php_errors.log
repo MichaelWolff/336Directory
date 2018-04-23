@@ -2261,3 +2261,7 @@ Stack trace:
 [23-Apr-2018 02:57:19 UTC] PHP Notice:  Undefined index: name in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 13
 [23-Apr-2018 02:57:19 UTC] PHP Notice:  Undefined index: status in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 14
 [23-Apr-2018 02:57:19 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 59
+[23-Apr-2018 03:01:40 UTC] PHP Notice:  Undefined index: type in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 12
+[23-Apr-2018 03:01:40 UTC] PHP Notice:  Undefined index: name in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 13
+[23-Apr-2018 03:01:40 UTC] PHP Notice:  Undefined index: status in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 14
+[23-Apr-2018 03:01:40 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 59
