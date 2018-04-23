@@ -48,7 +48,7 @@
         //////////////////////////////////////////////////////////////
         //$sql = " SELECT * FROM device ORDER BY deviceName";//This will sort them alphabetically by the device name add DESC to reverse the order
         //$order = 'deviceName';
-        $sql =  'SELECT * FROM device';
+        $sql =  'SELECT * FROM poll';
         // $sql =  'SELECT * FROM device WHERE deviceName LIKE "'.$name.'%" ORDER BY ' .$order;//Works
         ////$sql = 'SELECT * FROM device WHERE deviceName = "HTC Vive" ORDER BY ' .$order;
         //$sql = 'SELECT * FROM device WHERE deviceName = '.$name.' ORDER BY ' .$order;
@@ -63,7 +63,7 @@
         while ($row = $stmt -> fetch())  {
             //echo  $row['deviceName'] . ", " . $row['deviceType'] . ', ' . $row['price'] . ", " . $row['status']. "</br>";
             $table_str.='<tr>';
-            $table_str.='<td>'.$row['deviceName'].'</td>';
+            $table_str.='<td>'.$row['Yes'].'</td>';
             $table_str.='</tr>';
         }
         $table_str.='</table>';
