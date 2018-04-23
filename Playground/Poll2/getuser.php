@@ -45,7 +45,7 @@
         echo "45";
         $stmt = $db->prepare($sql);
         echo "47";
-        $stmt=$stmt -> execute (  array ( ':id' => '1')  );//This is the problem line
+        $stmt->execute(array( ':id' => '1'));//This is the problem line
         echo "48";
         $tempYes = 0;
         echo "50";
