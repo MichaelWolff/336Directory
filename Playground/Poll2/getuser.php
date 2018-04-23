@@ -23,6 +23,8 @@ th {text-align: left;}
     <?php
     echo "This is a test";
     ?>
+</body>
+</html>
 <?php
 $q = intval($_GET['q']);
         if($q == '1'){
