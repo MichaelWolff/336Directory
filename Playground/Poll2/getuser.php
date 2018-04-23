@@ -47,7 +47,7 @@
         echo "47";
         //$stmt->execute(array( ':id' => '1'));//This is the problem line
         echo "48";
-        $user = $query->fetch(PDO::FETCH_ASSOC);
+        //$user = $query->fetch(PDO::FETCH_ASSOC);
         $tempYes = 0;
         echo "50";
         $tempNo = 0;
