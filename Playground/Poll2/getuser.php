@@ -22,13 +22,13 @@
         //$q=4;
         $q = intval($_GET['q']);
         if($q == '1'){
-            $sql =  'INSERT INTO Poll (Yes) VALUES ("1")';
+            $sql =  'INSERT INTO poll (Yes) VALUES ("1")';
         }
         if($q =='2'){
-            $sql =  'INSERT INTO Poll (No) VALUES ("1")';
+            $sql =  'INSERT INTO poll (No) VALUES ("1")';
         }
         if($q == '3'){
-             $sql =  'INSERT INTO Poll (Maybe) VALUES ("1")';
+             $sql =  'INSERT INTO poll (Maybe) VALUES ("1")';
         }
         if($q == '4'){
             $sql =  'SELECT * FROM poll';
@@ -41,7 +41,6 @@
         $tempMaybe =0;
         if ($stmt->rowCount() > 0) {
         while ($row = $stmt -> fetch())  {
-            echo "57";
             $tempYes=$tempYes+$row['Yes'];
             $tempNo=$tempNo+$row['No'];
             $tempMaybe = $tempMaybe+$row['Maybe'];
