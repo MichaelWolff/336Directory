@@ -1,31 +1,6 @@
 
-<!DOCTYPE html>
-<html>
-    
-    <head>
-        <title> Lab 4 </title>
-    </head>
-    <body>
-        <?php
-            ///////////////////////////////////////////////////////////////////////
-            //This is the example provided on ilearn modified to fit this project
-        $type = $_POST["type"];
-        $name = $_POST["name"];
-        $availability = $_POST["status"];
-        
-        //The connection originally used in cloud9
-        /////////////////////////////////////////
-        // $host = "localhost";
-        // $dbname = "Tester";
-        // $username ="mwolff10";
-        // $password = "";
-        // $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-        // $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        ////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////
-        
-        //The new connection setup for Heroku
-        ////////////////////////////////////////////////////////////
+    <?php
+    $sql = 'SELECT * FROM Poll';
         $connUrl = getenv('JAWSDB_MARIA_URL');
         //$connUrl = "mysql://ikxzumlxt0a0uq9x:qendeuysn1eho7ym@thzz882efnak0xod.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s1vxerk2jlp6h9j1";
         $hasConnUrl = !empty($connUrl);
@@ -43,39 +18,56 @@
 
         $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
         $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        //return new PDO("mysql:host=$host;dbname=$dbname", $username, $password);//For some reason this line from Jasons exampled isnt working for me
-        //////////////////////////////////////////////////////////////
-        //////////////////////////////////////////////////////////////
-        //$sql = " SELECT * FROM device ORDER BY deviceName";//This will sort them alphabetically by the device name add DESC to reverse the order
-        //$order = 'deviceName';
-        $sql =  'SELECT * FROM poll';
-        // $sql =  'SELECT * FROM device WHERE deviceName LIKE "'.$name.'%" ORDER BY ' .$order;//Works
-        ////$sql = 'SELECT * FROM device WHERE deviceName = "HTC Vive" ORDER BY ' .$order;
-        //$sql = 'SELECT * FROM device WHERE deviceName = '.$name.' ORDER BY ' .$order;
-
-        $stmt = $dbConn -> prepare ($sql);
-        $stmt -> execute (  array ( ':id' => '1')  );
-        if ($stmt->rowCount() > 0) {
-            //Creates a table
-            $table_str.='<table>';
-            $table_str.='<thead>';
-            $table_str.='</thead>';
-        while ($row = $stmt -> fetch())  {
-            //echo  $row['deviceName'] . ", " . $row['deviceType'] . ', ' . $row['price'] . ", " . $row['status']. "</br>";
-            $table_str.='<tr>';
-            $table_str.='<td>'.$row['Yes'].'</td>';
-            $table_str.='</tr>';
+        
+        echo "This is a test";
+        //$q=4;
+        $q = intval($_GET['q']);
+        if($q == '1'){
+            echo "q = 1";
+            $sql =  'INSERT INTO Poll (Yes) VALUES ("1")';
         }
-        $table_str.='</table>';
-        echo $table_str;
+        if($q =='2'){
+            $sql =  'INSERT INTO Poll (No) VALUES ("1")';
+        }
+        if($q == '3'){
+             $sql =  'INSERT INTO Poll (Maybe) VALUES ("1")';
+        }
+        if($q == '4'){
+            echo "q=4";
+            $sql =  'SELECT * FROM poll';
+        }
+        echo "45";
+        $stmt = $dbConn->prepare($sql);
+        echo "47";
+        $stmt -> execute (  array ( ':id' => '1')  );//This is the problem line
+        echo "48";
+        //$user = $query->fetch(PDO::FETCH_ASSOC);
+        $tempYes = 0;
+        echo "50";
+        $tempNo = 0;
+        $tempMaybe =0;
+        echo "53";
+        if ($stmt->rowCount() > 0) {
+        echo "55";
+        while ($row = $stmt -> fetch())  {
+            echo "57";
+            $tempYes=$tempYes+$row['Yes'];
+            $tempNo=$tempNo+$row['No'];
+            $tempMaybe = $tempMaybe+$row['Maybe'];
+        }
+        echo "62";
+        //echo $table_str;//Prints the whole table
+        echo "<img src = 'poll.jpg' width =".(100*round($tempYes/($tempNo+$tempYes+$tempMaybe),2))." height = '20'> ";
+        echo (100*round($tempYes/($tempNo+$tempYes+$tempMaybe),2))."% Yes</br>";
+        echo "<img src = 'poll.jpg' width =".(100*round($tempNo/($tempYes+$tempNo+$tempMaybe),2))." height = '20'> ";
+        echo (100*round($tempNo/($tempYes+$tempNo+$tempMaybe),2)).'% No</br>';
+        echo "<img src = 'poll.jpg' width =".(100*round($tempMaybe/($tempYes+$tempNo+$tempMaybe),2))." height = '20'> ";
+        echo (100*round($tempMaybe/($tempYes+$tempNo+$tempMaybe),2)).'% Maybe</br>';
         }
         else {
         echo "No data found";
         }
-        ?>
-        <form>
-            <!--<input type="submit" value="Spin!"/>-->
-        </form>
-        </div>
-    </body>
-</html>
+        echo "this is the end of get user";
+        //return null;
+        
+?>
