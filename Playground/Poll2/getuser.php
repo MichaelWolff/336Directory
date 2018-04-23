@@ -26,7 +26,8 @@ th {text-align: left;}
 </body>
 </html>
 <?php
-$q = intval($_GET['q']);
+$q=4;
+//$q = intval($_GET['q']);
         if($q == '1'){
             echo "q = 1";
             $sql =  'INSERT INTO Poll (YES) VALUES ("1")';
