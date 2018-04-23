@@ -20,7 +20,9 @@ th {text-align: left;}
 </style>
 </head>
 <body>
-    
+    <?php
+    echo "This is a test";
+    ?>
 <?php
 $q = intval($_GET['q']);
         if($q == '1'){
