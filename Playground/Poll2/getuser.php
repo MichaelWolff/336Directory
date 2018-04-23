@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-    
-    <head>
-        <title> Get User </title>
-        </head>
-        <body>
+
     <?php
-     $q = intval($_GET['q']);
+    $sql = 'SELECT * FROM Poll';
         $connUrl = getenv('JAWSDB_MARIA_URL');
         //$connUrl = "mysql://ikxzumlxt0a0uq9x:qendeuysn1eho7ym@thzz882efnak0xod.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s1vxerk2jlp6h9j1";
         $hasConnUrl = !empty($connUrl);
@@ -27,7 +21,7 @@
         
         echo "This is a test";
         //$q=4;
-       
+        $q = intval($_GET['q']);
         if($q == '1'){
             echo "q = 1";
             $sql =  'INSERT INTO Poll (Yes) VALUES ("1")';
@@ -40,11 +34,11 @@
         }
         if($q == '4'){
             echo "q=4";
-            $sql =  'SELECT * FROM poll';
+            $sql =  'SELECT * FROM Poll';
         }
-        echo "38";
+        echo "45";
         $stmt = $dbConn->prepare($sql);
-        echo "40";
+        echo "47";
         $stmt -> execute (  array ( ':id' => '1')  );//This is the problem line
         echo "48";
         //$user = $query->fetch(PDO::FETCH_ASSOC);
@@ -77,6 +71,3 @@
         //return null;
         
 ?>
-
-    </body>
-</html>

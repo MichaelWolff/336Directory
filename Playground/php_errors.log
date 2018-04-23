@@ -2195,3 +2195,25 @@ Stack trace:
 [23-Apr-2018 02:12:35 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 49
 [23-Apr-2018 02:12:35 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 49
 [23-Apr-2018 02:12:37 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 49
+[23-Apr-2018 02:44:10 UTC] PHP Notice:  Undefined index: q in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 9
+[23-Apr-2018 02:44:10 UTC] PHP Notice:  Undefined variable: sql in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[23-Apr-2018 02:44:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty in /home/ubuntu/workspace/Playground/Poll2/getuser.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 48
+[23-Apr-2018 02:44:14 UTC] PHP Notice:  Undefined index: q in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 9
+[23-Apr-2018 02:44:14 UTC] PHP Notice:  Undefined variable: sql in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[23-Apr-2018 02:44:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty in /home/ubuntu/workspace/Playground/Poll2/getuser.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 48
+[23-Apr-2018 02:44:29 UTC] PHP Notice:  Undefined index: q in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 23
+[23-Apr-2018 02:44:29 UTC] PHP Notice:  Undefined variable: sql in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 39
+[23-Apr-2018 02:44:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty in /home/ubuntu/workspace/Playground/Poll2/getuser.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 41
+[23-Apr-2018 02:44:53 UTC] PHP Notice:  Undefined index: q in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 24
