@@ -24,9 +24,9 @@ th {text-align: left;}
     echo "This is a test";
     ?>
 
-<?php
-$q=4;
-//$q = intval($_GET['q']);
+        <?php
+        $q=4;
+        //$q = intval($_GET['q']);
         if($q == '1'){
             echo "q = 1";
             $sql =  'INSERT INTO Poll (Yes) VALUES ("1")';
@@ -44,7 +44,7 @@ $q=4;
         
         $stmt = $dbConn->prepare($sql);
         $stmt -> execute (  array ( ':id' => '1')  );//This is the problem line
-        $tempYes =0;
+        $tempYes = 0;
         $tempNo = 0;
         $tempMaybe =0;
         if ($stmt->rowCount() > 0) {
@@ -64,6 +64,7 @@ $q=4;
         else {
         echo "No data found";
         }
+        echo "this is the end of get user";
         //return null;
         
 ?>
