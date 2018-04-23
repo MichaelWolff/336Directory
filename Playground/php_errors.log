@@ -2187,3 +2187,11 @@ Stack trace:
 #0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
 #1 {main}
   thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[23-Apr-2018 02:12:03 UTC] PHP Notice:  Undefined index: q in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 31
+[23-Apr-2018 02:12:03 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 49
+[23-Apr-2018 02:12:08 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 49
+[23-Apr-2018 02:12:11 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 49
+[23-Apr-2018 02:12:34 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 49
+[23-Apr-2018 02:12:35 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 49
+[23-Apr-2018 02:12:35 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 49
+[23-Apr-2018 02:12:37 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 49
