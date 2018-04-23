@@ -37,8 +37,8 @@ $connUrl = getenv('JAWSDB_MARIA_URL');
         $username = $hasConnUrl ? $connParts['user'] : getenv('C9_USER');
         $password = $hasConnUrl ? $connParts['pass'] : '';
 
-        $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-        $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $db = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+        $db -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         echo "connected succesfully";
 }
 catch(PDOException $e){
@@ -66,7 +66,7 @@ catch(PDOException $e){
             $sql =  'SELECT * FROM Poll';
         }
         
-        $stmt = $dbConn->prepare($sql);
+        $stmt = $db->prepare($sql);
         $stmt -> execute (  array ( ':id' => '1')  );//This is the problem line
         $tempYes = 0;
         $tempNo = 0;
