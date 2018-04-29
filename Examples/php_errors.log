@@ -4,3 +4,19 @@
 [14-Feb-2018 17:22:39 UTC] PHP Fatal error:  Call to undefined function isnull() in /home/ubuntu/workspace/Examples/Challenge1/index.php on line 32
 [14-Feb-2018 17:22:39 UTC] PHP Stack trace:
 [14-Feb-2018 17:22:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Examples/Challenge1/index.php:0
+[29-Apr-2018 21:27:53 UTC] PHP Notice:  Undefined variable: name in /home/ubuntu/workspace/Examples/File-Upload/uploadFile.php on line 18
+[29-Apr-2018 21:27:53 UTC] PHP Warning:  move_uploaded_file(/uploads/): failed to open stream: Is a directory in /home/ubuntu/workspace/Examples/File-Upload/uploadFile.php on line 18
+[29-Apr-2018 21:27:53 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php4UKSvH' to '/uploads/' in /home/ubuntu/workspace/Examples/File-Upload/uploadFile.php on line 18
+[29-Apr-2018 21:28:34 UTC] PHP Notice:  Undefined variable: name in /home/ubuntu/workspace/Examples/File-Upload/uploadFile.php on line 18
+[29-Apr-2018 21:28:38 UTC] PHP Notice:  Undefined variable: name in /home/ubuntu/workspace/Examples/File-Upload/uploadFile.php on line 18
+[29-Apr-2018 21:29:32 UTC] PHP Notice:  Undefined variable: name in /home/ubuntu/workspace/Examples/File-Upload/uploadFile.php on line 18
+[29-Apr-2018 21:29:58 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Examples/File-Upload/uploadFile.php on line 18
+[29-Apr-2018 21:30:00 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Examples/File-Upload/uploadFile.php on line 18
+[29-Apr-2018 21:32:26 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Examples/File-Upload/uploadFile.php on line 25
+[29-Apr-2018 21:55:04 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Examples/File-Upload/uploadFile.php on line 8
+[29-Apr-2018 22:11:39 UTC] PHP Notice:  Undefined variable: indexCount in /home/ubuntu/workspace/Examples/File-Upload/index.php on line 17
+[29-Apr-2018 22:11:42 UTC] PHP Notice:  Undefined variable: indexCount in /home/ubuntu/workspace/Examples/File-Upload/index.php on line 17
+[29-Apr-2018 22:12:04 UTC] PHP Warning:  opendir(images): failed to open dir: No such file or directory in /home/ubuntu/workspace/Examples/File-Upload/index.php on line 18
+[29-Apr-2018 22:12:04 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/Examples/File-Upload/index.php on line 21
+[29-Apr-2018 22:12:04 UTC] PHP Warning:  closedir() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/Examples/File-Upload/index.php on line 26
+[29-Apr-2018 22:12:04 UTC] PHP Notice:  Undefined variable: dirArray in /home/ubuntu/workspace/Examples/File-Upload/index.php on line 29

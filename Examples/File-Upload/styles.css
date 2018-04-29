@@ -1,0 +1,19 @@
+img{
+    width: 10%;
+    padding:6px;
+    border:5px solid #4f5051;
+    background-color:grey;
+}
+
+.imageContainer > img:hover {
+  width: 30%;
+}
+
+body{
+    background-color: #2e2f30;
+    color: white;
+}
+
+text{
+    color: white;
+}
