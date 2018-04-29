@@ -1,0 +1,59 @@
+img{
+    width: 10%;
+    padding:6px;
+    border:5px solid #4f5051;
+    background-color:grey;
+}
+
+.imageContainer > img:hover {
+  width: 30%;
+}
+
+body{
+    background-color: #2e2f30;
+    color: white;
+    font-size: 25px;
+}
+
+text{
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid ;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+li a:active{
+        background-color: #4CAF50;
+
+}
+
+li:last-child{
+    border-right: none;
+}
+
+
+body{
+    background-color: #56585b;
+}

@@ -1,0 +1,2 @@
+[29-Apr-2018 22:24:12 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Labs/7/File-Upload/uploadFile.php on line 8
+[29-Apr-2018 22:30:34 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Labs/7/File-Upload/uploadFile.php on line 8
