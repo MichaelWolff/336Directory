@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Spotify</title>
+	<link rel="stylesheet" href="style.css">
+	
+
+	
+</head>
+<body>
+	<script src="https://sdk.scdn.co/spotify-player.js"></script>
+	<ul>
+              <li><a href="https://www.spotify.com/" style="padding:0;"><img src="img/SpotifyLogo.png" alt="Spotify"></a>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="news.asp">News</a></li>
+              <li><a href="contact.asp">Contact</a></li>
+              <li style="float:right"><a class="active" href="#logout">Logout</a></li>
+            </ul>
+	<script>
+	
+		window.onSpotifyWebPlaybackSDKReady = () => {
+			const token = 'BQDH_dnPWLM50R7ycweKs7FnKxiIQdY0MkzIIXbTtouyXVNpOb6PKjLcjZrhOue4nNJJf_Wh2w67Dn0i-HXckYcRi1OTsK0EFJi9Ncqfiu6aE2bsqw7SNijG1Ve-lfCjalsCPi7SeEEGtbxWhPa8mXo7_tib85MgE0eAGFUCHPUWwGWRAPJUUnrsHg';
+			const player = new Spotify.Player({
+    		name: 'Web Playback SDK Quick Start Player',
+    		getOAuthToken: cb => { cb(token); }
+			});
+
+			// Error handling
+			player.addListener('initialization_error', ({ message }) => { console.error(message); });
+			player.addListener('authentication_error', ({ message }) => { console.error(message); });
+			player.addListener('account_error', ({ message }) => { console.error(message); });
+			player.addListener('playback_error', ({ message }) => { console.error(message); });
+
+			// Playback status updates
+			player.addListener('player_state_changed', state => { console.log(state); });
+
+			// Ready
+			player.addListener('ready', ({ device_id }) => {
+    			console.log('Ready with Device ID', device_id);
+			});
+
+			// Connect to the player!
+			player.connect();
+			};
+	</script>	
+	<main class="main-container">
+		<section>
+			<div class="form">
+				<!--<img src="images/note.svg" alt="">-->
+				<form action="">
+					<input type="search" value="Kaleo">
+					<input type="submit" value="Create">
+				</form>
+				<p>Spotify Playlist</p>
+			</div>
+			<div class="playlist">
+				<div class="loader">
+					<div class="inner-circle"></div>
+				</div>
+			</div>
+			
+		</section>
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,132 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid ;
+}
+
+button{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float: left;
+    border-right: 1px solid ;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid ;
+    border: none;
+    float: right;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+li a:active{
+        background-color: #4CAF50;
+
+}
+
+li:last-child{
+    border-right: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+body{
+    background-color: #56585b;
+    margin: 0;
+}
+
+.icon{
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.playImage{
+    float: left;
+    height: 80px;
+    margin:3px;
+    padding: 3px;
+}
+
+.songListing{
+    width:100%;
+    
+}
+
+
+
+.playList{
+    list-style-type: none;
+    /*padding: 10px;*/
+    overflow: hidden;
+   background-color: #111;
+}
+.trackText{
+    float: left;
+    font-size: 20px;
+    width: 15%;
+    display: block;
+    height: 100%;
+    color: white;
+    /*overflow: hidden;*/
+    /*margin: auto;*/
+    padding: 20px 0;
+    border: none;
+    
+    
+}
+.trackListing{
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+li input[type=search] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 6px; 
+    font-size: 27px;
+    width: 80%;
+    display: inline;
+    height: 100%;
+    background-color: #232323;
+    color: #56585b;
+    overflow: hidden;
+    text-decoration: underline;
+}
