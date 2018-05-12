@@ -12,12 +12,38 @@
 <body>
 <div class="container">
     <body>
+        <?php
+    $files = glob("img/*.*");
+    for ($i=0; $i<count($files); $i++)
+     {
+       $image = $files[$i];
+       $supported_file = array(
+               'jpg',
+               'jpeg',
+               'png'
+        );
+ 
+        $ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
+        if (in_array($ext, $supported_file)) {
+           echo basename($image)."<br />"; // show only image name if you want to show full path then use this code // echo $image."<br />";
+            echo '<img src="'.$image .'" alt="Random image" />'."<br /><br />";
+           } else {
+               continue;
+           }
+         }
+      ?>
      <h2>Appointments</h2>
         <form action="index.php" method="post">
           <input type="submit" value="Submit">
          
         </form>
          <a href="AddAppt.php"><button>Add Appointments</button></a>
+         <a href="rubric.html"><button>Grading Rubric</button></a>
+        <form action="uploadFile.php" method="post" enctype="multipart/form-data">
+        Upload Banner:
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload Image" name="submit">
+        </form>
     
     <?php
             //The new connection setup for Heroku

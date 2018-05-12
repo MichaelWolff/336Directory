@@ -1601,3 +1601,66 @@ Stack trace:
 [12-May-2018 02:00:46 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 50
 [12-May-2018 02:00:55 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 50
 [12-May-2018 02:01:13 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 50
+[12-May-2018 02:09:47 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 51
+[12-May-2018 02:13:28 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 52
+[12-May-2018 02:14:46 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 55
+[12-May-2018 02:14:47 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:14:47 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:14:47 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:14:47 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 24
+[12-May-2018 02:14:47 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 55
+[12-May-2018 02:15:44 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:15:46 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:15:46 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:15:46 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:15:46 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 24
+[12-May-2018 02:15:46 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:15:47 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:15:47 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:15:47 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:15:47 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 24
+[12-May-2018 02:15:47 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:15:50 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:15:50 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:15:50 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:15:50 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 24
+[12-May-2018 02:15:50 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:15:54 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:15:54 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:15:54 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:15:54 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 24
+[12-May-2018 02:15:54 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:16:13 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:16:16 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:16:16 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:16:16 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:16:16 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 24
+[12-May-2018 02:16:16 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:16:24 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:16:24 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:16:24 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:16:24 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 24
+[12-May-2018 02:16:25 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:18:27 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:18:27 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:18:27 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 8
+[12-May-2018 02:18:27 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 24
+[12-May-2018 02:18:27 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:19:21 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:19:25 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 56
+[12-May-2018 02:20:18 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
+[12-May-2018 02:20:24 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
+[12-May-2018 02:20:44 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
+[12-May-2018 02:20:47 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
+[12-May-2018 02:20:55 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
+[12-May-2018 02:21:58 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
+[12-May-2018 02:22:02 UTC] PHP Notice:  Undefined index: Banner in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:22:02 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
+[12-May-2018 02:22:10 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
+[12-May-2018 02:22:30 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:22:30 UTC] PHP Notice:  Undefined index: fileToUpload in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 24
+[12-May-2018 02:22:45 UTC] PHP Notice:  Undefined index: Banner in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:22:46 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
+[12-May-2018 02:23:01 UTC] PHP Notice:  Undefined index: Banner in /home/ubuntu/workspace/Final/2018-05-11/uploadFile.php on line 3
+[12-May-2018 02:23:01 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
+[12-May-2018 02:24:36 UTC] PHP Notice:  Undefined variable: table_str3 in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 76
