@@ -15,12 +15,9 @@ function showUser(str) {
     } else { 
         if (window.XMLHttpRequest) {
             console.log("If statement line 9");
-            // code for IE7+, Firefox, Chrome, Opera, Safari
             var xmlhttp = new XMLHttpRequest();
         } else {
-            // code for IE6, IE5
             console.log("line 12");
-            //xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
         }
         
         xmlhttp.open("GET","/Playground/Poll2/getuser.php?q="+str,true);

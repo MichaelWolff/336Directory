@@ -2490,3 +2490,246 @@ Stack trace:
 #0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
 #1 {main}
   thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[04-May-2018 04:07:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/ubuntu/workspace/Playground/Poll2/getuser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/Playground/Poll2/getuser.php(46): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Playground/Poll2/getuser.php on line 46
+[06-May-2018 17:43:54 UTC] PHP Warning:  include(inc/GetPoll.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 24
+[06-May-2018 17:43:54 UTC] PHP Warning:  include(): Failed opening 'inc/GetPoll.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 24
+[06-May-2018 17:43:54 UTC] PHP Notice:  Undefined index: q in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 47
+[06-May-2018 17:43:54 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 90
+[06-May-2018 17:43:54 UTC] PHP Notice:  Use of undefined constant xhttp - assumed 'xhttp' in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 105
+[06-May-2018 17:43:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function open() in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 105
+[06-May-2018 17:43:59 UTC] PHP Warning:  include(inc/GetPoll.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 24
+[06-May-2018 17:43:59 UTC] PHP Warning:  include(): Failed opening 'inc/GetPoll.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 24
+[06-May-2018 17:43:59 UTC] PHP Notice:  Undefined index: q in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 47
+[06-May-2018 17:43:59 UTC] PHP Notice:  Undefined variable: table_str in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 90
+[06-May-2018 17:43:59 UTC] PHP Notice:  Use of undefined constant xhttp - assumed 'xhttp' in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 105
+[06-May-2018 17:43:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function open() in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/Playground/ReSTfulAPI/index.php on line 105

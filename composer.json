@@ -1,5 +1,6 @@
 {
     "require": {
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "monolog/monolog": "^1.23"
     }
 }
